@@ -47,11 +47,102 @@
     </div>
     <div class="szoveg">
         <div class="szoveg_bal">
-            <h2>Bio</h2>
-            <p class="text">
-                Látjátuk feleim szümtükhel, mik vogymuk: isȧ, por ës homou vogymuk. Mënyi milosztben terömtevé elevé miü isëmüköt Ádámot, ës aduttȧ valá neki pȧrȧdicsumot hȧzoá. Ës mënd pȧrȧdicsumben valou gyimilcsëktűl mondá neki élnië. Hëon tilutoá űt igy fá gyimilcsétűl. Gye mondoá neki, mérët nüm ënëik : isȧ, ki napon ëmdöl az gyimilcstűl, hȧlálnek hȧláláȧl holsz. Hȧdlȧvá holtát terömtevé Istentűl, gye feledevé. Engedé ürdüng intetüinek, ës ëvék az tilvot gyimilcstűl. Ës az gyimilcsben hȧlálut evék. Ës az gyimilcsnek úl keseröü valá vizë, hugy turkokȧt migé szakasztja valá. Nüm hëon mogánek, gye mënd ű fajánek hȧlálut ëvék. Haraguvék Isten, ës vetevé űt ez munkás világ belé: és lëün hȧlálnek ës pukulnek fëszë, ës mënd ű nemének. Kik azok? Miü vogymuk. Hugy ës tiü látjátuk szümtükhel: isȧ, ës nüm igy embër múlhatjȧ ez vermöt, isȧ mënd azhuz járou vogymuk. Vimádjuk Uromk Isten këgyilmét ez lélekért, hugy jorgasson ű neki, ës kegyigy-gyën, ës bulcsássȧ mënd ű bűnét!
+            <h2 style="font-size: 30px">mov ebx eax</h2>
+            <p class="text" style="font-size: 19px">
+                <!--Látjátuk feleim szümtükhel, mik vogymuk: isȧ, por ës homou vogymuk. Mënyi milosztben terömtevé elevé miü isëmüköt Ádámot, ës aduttȧ valá neki pȧrȧdicsumot hȧzoá. Ës mënd pȧrȧdicsumben valou gyimilcsëktűl mondá neki élnië. Hëon tilutoá űt igy fá gyimilcsétűl. Gye mondoá neki, mérët nüm ënëik : isȧ, ki napon ëmdöl az gyimilcstűl, hȧlálnek hȧláláȧl holsz. Hȧdlȧvá holtát terömtevé Istentűl, gye feledevé. Engedé ürdüng intetüinek, ës ëvék az tilvot gyimilcstűl. Ës az gyimilcsben hȧlálut evék. Ës az gyimilcsnek úl keseröü valá vizë, hugy turkokȧt migé szakasztja valá. Nüm hëon mogánek, gye mënd ű fajánek hȧlálut ëvék. Haraguvék Isten, ës vetevé űt ez munkás világ belé: és lëün hȧlálnek ës pukulnek fëszë, ës mënd ű nemének. Kik azok? Miü vogymuk. Hugy ës tiü látjátuk szümtükhel: isȧ, ës nüm igy embër múlhatjȧ ez vermöt, isȧ mënd azhuz járou vogymuk. Vimádjuk Uromk Isten këgyilmét ez lélekért, hugy jorgasson ű neki, ës kegyigy-gyën, ës bulcsássȧ mënd ű bűnét!
 
-                Ës vimádjok szen[t] ȧhszin Máriát és boudog Miháël ȧrhȧngyëlt ës mënd ȧngyëlkot, hugy vimádjanak érëttë! Ës vimádjok szent Pétër urat, kinek adot hatalm oudaniȧ ës këtnië, hugy oudjȧ mënd ű bűnét! Ës vimádjok mënd szentököt, hugy lëgyenek neki segéd Uromk színë eleüt, hugy Isten iü vimádságok miá bulcsássȧ ű bűnét! Ës szobadohhȧ űt ürdüng ildetüitűl ës pukul kínzatujátúl, ës vezessë űt pȧrȧdicsum nyugalmȧ belí, ës adjon neki münyi uruszág belé utat ës mënd jouben részët! Ës kíássátuk Uromkhuz hármúl: kyrie eleison!
+                Ës vimádjok szen[t] ȧhszin Máriát és boudog Miháël ȧrhȧngyëlt ës mënd ȧngyëlkot, hugy vimádjanak érëttë! Ës vimádjok szent Pétër urat, kinek adot hatalm oudaniȧ ës këtnië, hugy oudjȧ mënd ű bűnét! Ës vimádjok mënd szentököt, hugy lëgyenek neki segéd Uromk színë eleüt, hugy Isten iü vimádságok miá bulcsássȧ ű bűnét! Ës szobadohhȧ űt ürdüng ildetüitűl ës pukul kínzatujátúl, ës vezessë űt pȧrȧdicsum nyugalmȧ belí, ës adjon neki münyi uruszág belé utat ës mënd jouben részët! Ës kíássátuk Uromkhuz hármúl: kyrie eleison!-->
+                C típusú nyelvek &#10084<br><br>
+                .intel_syntax noprefix<br>
+                <br>
+                .global feladatX<br>
+                <br>
+                feladatX:<br>
+                push ebp<br>
+                mov ebp, esp<br>
+                <br>
+                push ebx<br>
+                push ecx<br>
+                push edx<br>
+                push edi<br>
+                push esi<br>
+                <br>
+                xor eax, eax<br>
+                xor ebx, ebx<br>
+                xor ecx, ecx<br>
+                xor edx, edx<br>
+                xor edi, edi<br>
+                xor esi, esi<br>
+                <br>
+                mov edi, [ebp+8]<br>
+                mov esi, [ebp+20]<br>
+                <br>
+                ciklus:<br>
+                push edx<br>
+                xor edx, edx<br>
+                cmp edx, [edi + 4*ebx]<br>
+                pop edx<br>
+                je kiugras<br>
+                mov ecx, [edi + 4*ebx]    #value<br>
+                mov edx, 0xbadc0ffe<br>
+                cmp edx, [ebp + 12]<br>
+                jne kovi<br>
+                push eax<br>
+                push ecx<br>
+                mov eax, ecx<br>
+                cdq<br>
+                mov ecx, [ebp + 16]  #itt ecx helyett edx volt<br>
+                idiv ecx		#itt is<br>
+                cmp edx, 0<br>
+                pop ecx<br>
+                pop eax<br>
+                je ide<br>
+                mov [esi + 4*eax], ecx<br>
+                inc eax<br>
+                jmp ide<br>
+                <br>
+                kovi:<br>
+                mov edx, 0x11223344<br>
+                cmp edx, [ebp + 12]<br>
+                jne kovii<br>
+                push eax<br>
+                push ecx<br>
+                mov eax, ecx<br>
+                cdq<br>
+                mov ecx, 3<br>
+                idiv ecx<br>
+                cmp eax, [ebp + 16]<br>
+                pop ecx<br>
+                pop eax<br>
+                jge ide<br>
+                mov [esi + 4*eax], ecx<br>
+                inc eax<br>
+                jmp ide<br>
+                <br>
+                kovii:<br>
+                mov edx, -512<br>
+                shl edx, 2<br>
+                mov [esi + 4*eax], edx<br>
+                inc eax<br>
+                jmp ide<br>
+                <br>
+                ide:<br>
+                inc ebx<br>
+                jmp ciklus<br>
+                <br>
+                kiugras:<br>
+                <br>
+                pop esi<br>
+                pop edi<br>
+                pop edx<br>
+                pop ecx<br>
+                pop ebx<br>
+                <br>
+                mov esp, ebp<br>
+                pop ebp<br>
+                ret<br>
+
+
             </p>
         </div>
         <div class="szoveg_jobb">
@@ -79,13 +170,13 @@
                         <dt>City and Country:</dt> <dd>Gyálarét city, Hungeráj</dd>
                     </div>
                     <div class="adatpar">
-                        <dt>Career Status:</dt> <dd>Hol tartunk?</dd>
+                        <dt>Career Status:</dt> <dd>Megfárad az ember...  ....megfárad</dd>
                     </div>
                     <div class="adatpar">
-                        <dt>Career Start and End:</dt> <dd>1969 + 20 év tapasztalat</dd>
+                        <dt>Career Start and End:</dt> <dd>2004 (20 év tapasztalat) - while(1){}</dd>
                     </div>
                     <div class="adatpar">
-                        <dt>Gender:</dt> <dd>Unikornis</dd>
+                        <dt>Gender:</dt> <dd>24 bites regiszter</dd>
                     </div>
                     <div class="adatpar">
                         <dt>Birth Place:</dt> <dd>Szentesi kórházban</dd>
@@ -94,7 +185,7 @@
                         <dt>Star Sign:</dt> <dd>Bariiiii</dd>
                     </div>
                     <div class="adatpar">
-                        <dt>Measurements:</dt> <dd>netfit 20 méteres ingafutás: 69 kört teljesített</dd>
+                        <dt>Measurements:</dt> <dd>a netfit 20 méteres ingafutás tesztjén 69 kört teljesített</dd>
                     </div>
                     <div class="adatpar">
                         <dt>Endowment:</dt> <dd>nagy mell, nagy segg</dd>
