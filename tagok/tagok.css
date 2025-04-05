@@ -1,0 +1,359 @@
+body{
+    background-color: rgb(0,0,0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.felso{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.csik{
+    height: 20px;
+}
+.vissza{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #0e0e0e;
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 1px solid #0e0e0e;
+}
+.vissza:hover{
+    border: 1px solid rgba(153, 153, 153, 0.19);
+    background-color: rgba(153, 153, 153, 0.09);
+}
+
+.prn{
+    box-sizing: border-box;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #0e0e0e;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 0;
+}
+.prn2{
+    box-sizing: border-box;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #0e0e0e;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 0;
+}
+.porn{
+    color:white;
+    font-size: 33px;
+    font-weight: bold;
+    width: min-content;
+    display: inline-block;
+    margin-right: -1px;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hub{
+    color: black;
+    font-size: 33px;
+    font-weight: bold;
+    background-color: #ff9000;
+    border-radius: 3px;
+    width: min-content;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: inline-block;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nagydiv{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.bal_jobb{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url("alb/img_1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px -169px 190px rgba(0, 0, 0, 0.9);
+}
+.bal{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+.imgdiv{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    /*filter: blur(16px);*/
+}
+.nev{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.nev_h1{
+    margin: 0;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+}
+.nev_p{
+    margin: 0;
+    font-size: small;
+    text-align: left;
+    white-space: nowrap;
+    color: transparent;
+    width: 100%;
+}
+
+.jobb{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.alatt{
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    width: min-content;
+    justify-content: center;
+}
+.alatt_h1{
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+.alatt_p{
+    margin: 0;
+    font-size: small;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/*-----------------------------------------------------*/
+
+.szoveg{
+    background-color: #1b1b1b;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 40px;
+    box-shadow: inset 0px -200px 200px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: row;
+
+}
+.szoveg_bal{
+    width: 40%;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.szoveg_jobb{
+    width: 60%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.tolto{
+    width: inherit;
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+.featured_dt{
+    color: #999999;
+    font-weight: normal;
+    margin-bottom: 3px;
+}
+.featured{
+    color: #ff9000;
+    font-size: small;
+    font-weight: normal;
+    margin-bottom: 3px;
+}
+.linkek{
+    width: min-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 80px;
+}
+.datas{
+    width: min-content;
+    min-width: min-content;
+}
+h2{
+    margin: 0;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.text{
+    margin: 0;
+    color: #999999;
+    font-size: small;
+    line-height: 1.6;
+    text-align: justify;
+}
+a{
+    color: #999999;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: min-content;
+    font-size: smaller;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+
+
+.adatlista {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 30px;
+}
+
+.adatpar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 9px;
+}
+
+dt {
+    color: rgb(200, 200, 200);
+    font-weight: bold;
+    font-size: small;
+    white-space: nowrap;
+}
+
+dd {
+    color: #999999;
+    margin: 0;
+    font-size: small;
+    white-space: nowrap;
+}
+
+/*--------------------------------------------------------------------*/
+
+.also{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.alairas{
+    color: rgb(200, 200, 200);
+}
+
+@media (max-width: 1600px){
+    .nagydiv{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .szoveg{
+        background-color: #1b1b1b;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 20px;
+        padding-top: 40px;
+        box-shadow: inset 0px -200px 200px rgba(0, 0, 0, 1);
+        display: flex;
+        flex-direction: row;
+
+    }
+}
+@media (max-width: 1250px){
+    .szoveg{
+        flex-direction: column;
+
+    }
+    .szoveg_bal{
+        width: 100%;
+        box-sizing: border-box;
+        padding-right: 20px;
+    }
+    .szoveg_jobb{
+        width: 60%;
+        box-sizing: border-box;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
