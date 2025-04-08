@@ -170,6 +170,12 @@ img{
 .jobb_gomb:active{
     scale: 0.9;
 }
+
+.no-style {
+    all: unset;
+    margin: auto;
+}
+
 /*
 @media (max-width: 1100px) {
     .jobb{
